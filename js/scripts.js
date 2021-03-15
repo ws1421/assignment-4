@@ -82,7 +82,7 @@ map.on('style.load', function () {
   // add a geojson source
   map.addSource('old-astoria', {
     type: 'geojson',
-    data: '/data/pluto.geojson'
+    data: 'data/pluto.geojson'
   });
 
   // add a layer to style and display the source
