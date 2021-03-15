@@ -148,6 +148,9 @@ map.on('style.load', function () {
     }
   });
 
+
+
+
   // add an empty data source, which we will use to highlight the lot the user is hovering over
   map.addSource('highlight-feature', {
     type: 'geojson',
